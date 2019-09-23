@@ -1,0 +1,15 @@
+{
+    "name": "Chromemoji",
+    "version": "0.1",
+    "description": "Use Slack style emojis in your Chrome browser.",
+    "content_scripts":[
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["dist/main.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}

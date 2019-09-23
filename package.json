@@ -1,0 +1,18 @@
+{
+  "name": "chrome-slack-emoji",
+  "version": "1.0.0",
+  "description": "Use slack emoji in your chrome browser",
+  "private": true,
+  "repository": "https://github.com/thegoobs/chrome-slack-emoji.git",
+  "author": "Guthrie Schoolar",
+  "license": "MIT",
+  "scripts": {
+    "i": "yarn install",
+    "clean": "rm -rf node_modules",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
